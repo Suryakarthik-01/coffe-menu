@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(./coffe.jpg);
+            background-size: cover;
+        }
+        .main{
+            background-color: burlywood;
+            margin: auto;
+            position: relative;
+            top: 40px;
+            width: 40%;
+            height: 635px;
+        }
+        .items{
+            display: flex;
+            justify-content: space-between;
+            padding: 7px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+        }
+        h1,h2,p,i{            
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        hr{
+            border: 2px solid rgb(156, 52, 52);
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        h1,h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 100;
+        }
+        header{
+            width:100%;
+            height:90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        footer{
+            width:100%;
+            height:60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* padding:0px 0px 70px 0px; */
+        }
+        .cafe{
+            position: relative;
+            top:10px;
+        }
+        a{
+            color:black;
+            font-size: 20px;
+        }
+        section{
+            position: relative;
+            top:10px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1 class="cafe">Coffee Cafe</h1>
+            <i>Estd. 2024</i>
+            <hr>
+        </header>
+      
+        <section>
+            <h2>Coffee</h2>
+            <img src="./coffee.1.jpg" alt="">
+            <menu class="items">
+                <p>Classic Cappuccino</p>
+                <p>150.00</p>
+            </menu>
+            <menu class="items">
+                <p>Caramel Macchiato</p>
+                <p>100.00</p>
+            </menu>
+            <menu class="items">
+                <p>Filter Coffee</p>
+                <p>180.00</p>
+            </menu>
+            <menu class="items">
+                <p>Hazelnut</p>
+                <p>170.00</p>
+            </menu>
+          
+        </section>
+        <section>
+            <h2>Deseerts</h2>
+            <img src="./pie.jpg" alt="">
+            <menu class="items">
+                <p>Fortune cookie</p>
+                <p>75.00</p>
+            </menu>
+            <menu class="items">
+                <p>Danish pastry</p>
+                <p>90.00</p>
+            </menu>
+            <menu class="items">
+                <p>Brownies</p>
+                <p>110.00</p>
+            </menu>
+            <menu class="items">
+                <p>Cheesecake</p>
+                <p>120.00</p>
+            </menu>
+        </section>
+       <br>
+        <footer>
+            <hr>
+            <p>
+                <a href="https://www.cafecoffeeday.com/" target="_blank">visit our website</a>
+            </p>
+            <p>Cafe Coffee Day</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
